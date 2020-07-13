@@ -35,4 +35,3 @@ public class HomePageController {
 		return "aboutUs";
 	}
 }
-

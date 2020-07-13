@@ -1,4 +1,3 @@
-
 package onlineShop.model;
 
 import java.io.Serializable;
@@ -27,10 +26,10 @@ public class SalesOrder implements Serializable {
 	@ManyToOne
 	private Customer customer;
 
-	@ManyToOne
+	@OneToOne
 	private ShippingAddress shippingAddress;
 
-	@ManyToOne
+	@OneToOne
 	private BillingAddress billingAddress;
 
 	public int getId() {

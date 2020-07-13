@@ -1,4 +1,3 @@
-
 package onlineShop;
 
 import java.util.Properties;
