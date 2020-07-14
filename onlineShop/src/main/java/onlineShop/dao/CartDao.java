@@ -28,6 +28,7 @@ public class CartDao {
 		return cart;
 	}
 
+	// Implementation of Spring Security.
 	public Cart validate(int cartId) throws IOException {
 		Cart cart = getCartById(cartId);
 		if (cart == null || cart.getCartItem().size() == 0) {
